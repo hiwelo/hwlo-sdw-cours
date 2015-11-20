@@ -1,0 +1,68 @@
+
+.container {
+  margin: 2em auto;
+  width: 40em;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/**
+ * Option 1
+ */
+.option1 img {
+  float: left;
+  margin-right: 1em;
+  margin-top: .5em;
+  max-height: 6.5em;
+}
+
+/**
+ * Option 2
+ */
+.option2 img,
+.option2 p {
+  display: inline-block;
+}
+
+.option2 img {
+  box-sizing: border-box;
+  max-width: 20%;
+  padding-right: 1em;
+  padding-top: .3em;
+  vertical-align: top;
+}
+
+.option2 p {
+  margin-top: 0;
+  max-width: 79%;
+  padding-left: 1em;
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/**
+ * Option 3
+ */
+.option3 {
+  position: relative;
+}
+
+.option3 img {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.option3 p {
+  position: absolute;
+    bottom: 0; left: 0; right: 0;
+  margin: 0;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, .5);
+  color: #ddd;
+  font-style: italic;
+}
