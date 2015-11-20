@@ -1,0 +1,35 @@
+/**
+ * Première variante
+ */
+
+body {
+  padding: 0 5em;
+}
+
+.box {
+  margin: 1em 0;
+  padding: 1em;
+  background: #ccc;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+.global__container {
+  font-size: 0;
+}
+
+.content__container,
+.aside__container {
+  display: inline-block;
+  height: 50vh;
+  font-size: 16px;
+}
+
+.content__container {
+  margin-right: 2%;
+  width: 65%;
+}
+
+.aside__container {
+  width: 33%;
+}
